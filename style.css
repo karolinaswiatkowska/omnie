@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00acc1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 500;
+    position: relative;
+}
+
+header::after {
+    content: '⭐';
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-bottom: 6%;
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00acc1;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    color: #00796b;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #83c4f0;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+ul li:hover {
+    background: #3eb9c9;
+}
+
+ul li::before {
+    content: '⭐';
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+}
+
+a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00acc1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+
+
